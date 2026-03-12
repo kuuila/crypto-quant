@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv
+
+# 敏感配置
+.env
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志和数据
+logs/
+data/
+*.log
+*.csv
+
+# 回测输出
+backtest_results/
+*.html
+
+# OS
+.DS_Store
+Thumbs.db
